@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Breakfast</title>
+	<link rel="icon" href="images/icon11.png" type="image/x-icon">
+   	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+  	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+</head>
+<body class="first" >
+  <br><br><br>
+    <div class = "row">
+      <div class = "col-md-1">
+        <img src="images/icon11.png" alt="logo" height="100px" width="100px">
+        </div>
+ <div class = "col-md-11">
+ <p class="name1"><b class="name">HealthyBox</b>.com</p>
+ <hr/>
+ </div>
+ </div>
+ <div class="navbar-fixed-top">
+ <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li class="dropdown"><a href="#" class="dropbtn">Menu</a>
+      <div class="dropdown-content">
+        <a href="breakfast.html">Breakfast</a>
+        <a href="lunch.html">Lunch</a>
+        <a href="dinner.html">Dinner</a>
+      </div>
+     </li>
+  <li class="dropdown"><a href="#" class="dropbtn">Locations</a>
+    <div class="dropdown-content">
+        <a href="#">Chandigarh</a>
+        <a href="#">Patiala</a>
+        <a href="#">Ludhiana</a>
+        <a href="#">Ambala</a>
+        <a href="#">Panchkula</a>
+      </div>
+    </li>
+  <li class="about"><a href="about.html">About</a></li>
+  <li class="about"><a href="#about">SignUp</a></li>
+  <li class="about"><a href="#about">LogIn</a></li>
+</ul>
+</div>
+<b class="brq">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBreakfast</b>
+<br/>
+<div ><div class="days">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMonday</div>
+<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="images\monday.jpg" width="100" height="80" class="monday" id="myImg">
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+<i class="monday">&nbsp&nbsp&nbsp&nbsp&nbspAalu paratha,curd,butter,pickle</i></div><br><br><br>
+<div class="days">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTuesday</div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="images\tuesday.jpg" width="100" height="80" class="monday"><i class="monday">&nbsp&nbsp&nbsp&nbsp&nbspCheese Sandwitch,Omlette</i><br><br><br>
+<div class="days">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWednesday</div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="images\wednesday.jpg" width="100" height="80" class="monday"><i class="monday">&nbsp&nbsp&nbsp&nbsp&nbspPlain paratha,Aalu ki sabzi</i><br><br><br>
+<div class="days">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThursday</div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="images\thursday.jpg" width="100" height="80" class="monday"><i class="monday">&nbsp&nbsp&nbsp&nbsp&nbspPoha,Jalebi</i><br><br><br>
+<div class="days">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFriday</div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="images\friday.jpg" width="100" height="80" class="monday"><i class="monday">&nbsp&nbsp&nbsp&nbsp&nbspMacaroni,Bread rolls</i><br><br><br>
+<div class="days">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSaturday</div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="images\saturday.jpg" width="100" height="80" class="monday"><i class="monday">&nbsp&nbsp&nbsp&nbsp&nbspPyaz Paratha,Butter,Curd,Ketchup</i><br><br><br>
+<div class="days">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSunday</div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="images\sunday.jpg" width="100" height="80" class="monday"><i class="monday">&nbsp&nbsp&nbsp&nbsp&nbspCheese Pasta,Oats</i><br><br><br>
+
+</div>
+<script type="text/javascript">
+	var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>

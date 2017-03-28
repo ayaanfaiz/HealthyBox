@@ -1,0 +1,286 @@
+.row {
+text-align: left;
+color:#37474F;
+font-family: 'Coiny', cursive;
+}
+.about {
+  float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+    background-color: #f3f3f3;
+    font-family: 'Pacifico', cursive;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn .dropdown-content{
+    background-color: #e74c3c;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.brq{
+
+    font-family: 'Lobster', cursive;
+    font-size: 500%;
+    color: #616161;
+}
+.first{
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url("breakfast1.jpg");
+
+}
+.days{
+	font-family: 'Indie Flower', cursive;
+	font-size: 250%;
+}
+.monday{
+	border-radius: 50%;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 150%;
+}
+.name{
+	font-size: 300%;
+}
+#myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    height: 60%px;
+
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+.name1{
+    font-size: 200%;
+}
+.product-view .photo {
+    width: 100%;
+    float: left;
+    height: 186px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.today{
+    text-align : left;
+    background-image: url("cover.jpg");
+    height: 550px;
+    width: 1100px;
+  /*  opacity: 0.5;
+    filter: alpha(opacity=50);*/
+
+}
+.special{
+    size:50;
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Coiny', cursive;
+    opacity: 8.0;
+}
+.cont {
+    width:350px;
+    height:350px;
+    margin: 10px;
+    background-color: #f3f3f3;
+    /*opacity: 0.5;
+    /*  filter: alpha(opacity=50);*/
+}
+.cont:hover{
+  opacity: 1.0;
+  /*  filter: alpha(opacity=50);
+    cursor: pointer;*/
+}
+.photo {
+    margin-top: 10px;
+}
+.title{
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+}
+h1{
+  font-family: 'Itim', cursive;
+}
+.footer{
+  color:white;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Playfair Display', serif;
+  background-image: url("footer.jpg");
+  height:200px;
+}
+.fb,.call,.insta{
+  text-align: center;
+}
+.copyright{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-weight: normal;
+}
+input[type=text], input[type=password] {
+    width: 590px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 670px;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.back{
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url("home.jpg");
+
+}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/loader-64x/Preloader_1.gif) center no-repeat #fff;
+}

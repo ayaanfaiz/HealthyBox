@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="icon" href="images/icon11.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+  <script type="text/javascript">
+  	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+  </script>
+
+</head>
+<body class="back">
+<div class="se-pre-con"></div>
+  <br><br><br>
+    <div class = "row">
+      <div class = "col-md-1">
+        <img src="images/icon11.png" alt="logo" height="100px" width="100px">
+        </div>
+ <div class = "col-md-11">
+ <p class="name1"><b class="name">HealthyBox</b>.com</p>
+ </div>
+ </div>
+ <div class="navbar-fixed-top">
+ <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li class="dropdown"><a href="#" class="dropbtn">Menu</a>
+      <div class="dropdown-content">
+        <a href="breakfast.html">Breakfast</a>
+        <a href="lunch.html">Lunch</a>
+        <a href="dinner.html">Dinner</a>
+      </div>
+     </li>
+  <li class="dropdown"><a href="#" class="dropbtn">Locations</a>
+    <div class="dropdown-content">
+        <a href="#">Chandigarh</a>
+        <a href="#">Patiala</a>
+        <a href="#">Ludhiana</a>
+        <a href="#">Ambala</a>
+        <a href="#">Panchkula</a>
+      </div>
+    </li>
+  <li class="about"><a href="about.html">About</a></li>
+  <li class="about"><a><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">SignUp</button></a></li>
+    <li class="about"><a><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></a></li>
+</ul>
+</div>
+<div id="id01" class="modal">
+
+  <form class="modal-content" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/user.jpg" alt="Avatar" height="100px">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+      <label><b>Password</b></label>
+      &nbsp;&nbsp;&nbsp;<input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button class="button" type="submit">Login</button>
+      <br><input type="checkbox" checked="checked">Remember me
+    </div>
+  </form>
+</div>
+<div id="id02" class="modal">
+
+  <form class="modal-content" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/user.jpg" alt="Avatar" height="100px">
+    </div>
+
+    <div class="container">
+      <label><b>First Name</b></label>
+      &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter First Name" name="uname" required>
+      <br>
+      <label><b>Last Name</b></label>
+      &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Last Name" name="uname" required>
+      <br>
+      <label><b>Email Id</b></label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Email Id" name="uname" required>
+      <br>
+      <label><b>Contact No.</b></label>
+      &nbsp;<input type="text" placeholder="Enter Contact No." name="uname" required>
+      <br>
+      <label><b>Password</b></label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" placeholder="Enter Password" name="psw" required><br>
+      <button class="button" type="submit">SignUp</button>
+    </div>
+  </form>
+</div>
+<hr>
+ <!--<div class="container">
+  <div class = "col-md-12 today">
+  <b class="special">Today's Special</b>
+ </div>
+ </div>
+ <hr>-->
+
+ <div class="container">
+   <h1 class"attr">Main Attractions...</h1>
+<div class="col-md-4 cont" style="margin-top:15px;">
+<img class="photo" src="images/mp.jpg" height="290px" width="320px">
+<!--<title class="title">Muttur Paneer</title>-->
+<div class="title"> Mutter Paneer
+</div>
+</div>
+<div class="col-md-4 cont" style="margin-top:15px;">
+<img class="photo" src="images/idli1.jpg" height="290px" width="320px">
+<!--<title class="title">Muttur Paneer</title>-->
+<div class="title"> Idli Dhokla
+</div>
+</div>
+<div class="col-md-4 cont" style="margin-top:15px;">
+<img class="photo" src="images/chiken1.jpg" height="290px" width="320px">
+<!--<title class="title">Muttur Paneer</title>-->
+<div class="title"> Chicken Cacciatore
+</div>
+</div>
+ </div>
+ <hr>
+ <div class="footer">
+   <h1>For More Support and Info<h1>
+     <div class="support">
+     <div class="col-md-4 fb"><a href="https://www.facebook.com/ayush.malik.984" title="Follow us!!!"><img src="images/fb.jpg" height="30px" width="30px"></a>
+     </div>
+     <div class="col-md-4 call"><i class="material-icons">settings_phone</i>
+     <h4>+91-9872342616<br>+91-8439882502</h4></div>
+     <div class="col-md-4 insta"><a href="https://www.facebook.com/ayush.malik.984" title="Follow us!!!"><img src="images/insta.jpg" height="30px" width="30px"></a>
+     </div>
+   </div>
+   <br>
+<div class="col-md-12 copyright">
+ <h5>Copyright 2016. All rights reserved by HealthyBox.com | Support & FAQs | Terms of Use | Privacy Policy</h5>
+</div>
+</div>
+ </body>
+</html>
